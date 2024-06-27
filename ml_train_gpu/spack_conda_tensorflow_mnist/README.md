@@ -30,7 +30,7 @@ Modify the Slurm script to include your email address. Slurm will report useful 
 Submit the Slurm script to initiate the model training on `gpu` partition on the Yens:
 
 ```bash
-$ sbatch train-finbert-job.sh
+$ sbatch mnist-job.sh
 ```
 
 Monitor the training progress by checking the Slurm queue for your username:
@@ -52,12 +52,7 @@ $ nvtop
 After the training is complete, check the output file `finBERT-train.out` for training and evaluation metrics:
 
 ```bash
-$ cat train-finbert.output
+$ cat mnist-train.output
 ```
 
 # Credits 
-
-Original Authors: Stanford GSB DARC Team (gsb_darcresearch@stanford.edu) 
-```bash
-$ https://github.com/gsbdarc/yens-gpu-demo.git 
-```
