@@ -1,5 +1,6 @@
 # slurm-job-samples
 Repository of Slurm Job Samples encapsulate GPU resources.
+![Slum Job Logo](resources/slurm-job-samples-logo.png)
 
 ### List of ML training jobs
 
